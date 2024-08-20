@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- Updated by ChatGPT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">WeatherNow</div>
+        <form class="search-bar">
+            <input type="text" placeholder="Search by City" class="search-input">
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+    </nav>
+
+    <div class="container">
+        <div class="main-weather">
+            <h2 class="day">Sunday</h2>
+            <span class="date">18 September 2023</span>
+            <div class="weather-icon">
+                <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="Weather Icon" />
+                <h2 class="temperature">22°C</h2>
+            </div>
+            <h3 class="description">Overcast Clouds</h3>
+        </div>
+
+        <div class="weather-details">
+            <div class="detail-item">
+                <p class="label">Location</p>
+                <span class="value">United Kingdom</span>
+            </div>
+            <div class="detail-item">
+                <p class="label">Temperature</p>
+                <span class="value">23°C</span>
+            </div>
+            <div class="detail-item">
+                <p class="label">Humidity</p>
+                <span class="value">2%</span>
+            </div>
+            <div class="detail-item">
+                <p class="label">Wind Speed</p>
+                <span class="value">2.92 Km/h</span>
+            </div>
+        </div>
+
+        <div class="forecast">
+            <ul>
+                <li>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span>Mon</span>
+                    <span class="day-temp">23°C</span>
+                </li>
+                <li>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span>Tue</span>
+                    <span class="day-temp">21°C</span>
+                </li>
+                <li>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span>Wed</span>
+                    <span class="day-temp">19°C</span>
+                </li>
+                <li>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" />
+                    <span>Thu</span>
+                    <span class="day-temp">22°C</span>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
